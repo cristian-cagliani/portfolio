@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio di Cristian Cagliani - Tecnico Informatico con specializzazione in Networking, Cloud e Programmazione.">
+    <title>Cristian Cagliani | Networking & IT Specialist</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">CCagliani</span><span class="logo-dot">.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">Chi Sono</a></li>
+                <li><a href="#skills" class="nav-link">Competenze</a></li>
+                <li><a href="#certifications" class="nav-link">Certificazioni</a></li>
+                <li><a href="#projects" class="nav-link">Progetti</a></li>
+                <li><a href="#contact" class="nav-link btn-primary">Contatti</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <canvas id="network-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-name">Cristian Cagliani <span class="cursor">|</span></h1>
+            <p class="hero-subtitle">IT Specialist & Network Engineer</p>
+            <p class="hero-description">
+                Costruisco infrastrutture resilienti e connetto mondi invisibili.<br>
+                Specializzato in <strong>Networking</strong>, con solida esperienza in <strong>Cloud</strong> e
+                <strong>Programmazione</strong>.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Vedi i Progetti</a>
+                <a href="#contact" class="btn btn-secondary">Mettiamoci in contatto</a>
+            </div>
+            <div class="social-links-hero">
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section reveal">
+        <div class="container">
+            <h2 class="section-title">Chi <span>Sono</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Sono un tecnico informatico appassionato di tecnologia e innovazione. La mia spina dorsale
+                        professionale è il <strong>Networking</strong>, dove trovo soddisfazione nell'architettare,
+                        configurare e manutenere reti complesse, sicure e performanti.
+                    </p>
+                    <p>
+                        Credo in un approccio olistico all'IT: la mia esperienza nel <strong>Cloud Computing</strong> e
+                        nella <strong>Programmazione</strong> mi permette di comprendere e risolvere problemi su più
+                        livelli, dal codice sorgente fino all'infrastruttura di rete che lo ospita, offrendo soluzioni
+                        complete ed ottimizzate.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-network-wired accent-color"></i>
+                            <h4>Network Architecture</h4>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-cloud accent-color"></i>
+                            <h4>Cloud Infrastructure</h4>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code accent-color"></i>
+                            <h4>Software Development</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">bash - root@ccagliani:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">root@ccagliani:~#</span> ping -c 3 success</p>
+                            <p>PING success (127.0.0.1) 56(84) bytes of data.</p>
+                            <p>64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.034 ms</p>
+                            <p>64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.029 ms</p>
+                            <p>64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.031 ms</p>
+                            <br>
+                            <p><span class="prompt">root@ccagliani:~#</span> ./start_career.sh</p>
+                            <p class="success-text">-> Routing packets successfully...</p>
+                            <p class="success-text">-> Cloud instances provisioned...</p>
+                            <p class="success-text">-> Code is compiling without errors...</p>
+                            <p class="cursor-blink">_</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section reveal">
+        <div class="container">
+            <h2 class="section-title">Le Mie <span>Competenze</span></h2>
+            <div class="skills-grid">
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Networking</h3>
+                    </div>
+                    <p class="skill-desc">Progettazione, routing, switching, e network security.</p>
+                    <div class="skill-tags">
+                        <span class="tag">TCP/IP</span>
+                        <span class="tag">Cisco/MikroTik</span>
+                        <span class="tag">VLAN & VPN</span>
+                        <span class="tag">Firewall</span>
+                        <span class="tag">BGP/OSPF</span>
+                        <span class="tag">Wireshark</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud</h3>
+                    </div>
+                    <p class="skill-desc">Gestione risorse cloud, virtualizzazione e servizi distribuiti.</p>
+                    <div class="skill-tags">
+                        <span class="tag">AWS</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Virtualization (VMware/Proxmox)</span>
+                        <span class="tag">Linux SysAdmin</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Programmazione</h3>
+                    </div>
+                    <p class="skill-desc">Sviluppo di script, automazione e applicazioni web.</p>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Bash</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">Git</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section reveal">
+        <div class="container">
+            <h2 class="section-title"><span>Certificazioni</span></h2>
+            <div class="certifications-grid">
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Cisco CCNA</h3>
+                        <p class="cert-issuer">Cisco Systems</p>
+                        <p class="cert-date">Data: [Inserire Data]</p>
+                        <a href="#" class="cert-link">Visualizza Credenziale <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>CompTIA Network+</h3>
+                        <p class="cert-issuer">CompTIA</p>
+                        <p class="cert-date">Data: [Inserire Data]</p>
+                        <a href="#" class="cert-link">Visualizza Credenziale <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date">Data: [Inserire Data]</p>
+                        <a href="#" class="cert-link">Visualizza Credenziale <i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-2">
+                <p class="text-muted"><small>*(Nota: I titoli delle certificazioni sono degli esempi (placeholder), puoi
+                        modificarli con le tue certificazioni reali)*</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section reveal">
+        <div class="container">
+            <h2 class="section-title">Esperienze & <span>Progetti</span></h2>
+            <div class="projects-grid">
+
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-btn" title="Vedi Codice/Dettagli"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="#" class="project-link-btn" title="Live Preview"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Toplogy Redesign</h3>
+                        <p>Riprogettazione completa dell'infrastruttura di rete aziendale per migliorare la ridondanza e
+                            le performance. Implementazione di VLAN a livello logico e routing OSPF.</p>
+                        <div class="project-tech">
+                            <span>Cisco IOS</span>
+                            <span>Network Design</span>
+                            <span>VPN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link-btn" title="Vedi Codice/Dettagli"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Automazione Network Script in Python</h3>
+                        <p>Sviluppo di uno strumento in Python per raccogliere automaticamente le configurazioni dai
+                            router di rete, eseguire backup periodici su cloud storage e notificare gli stati anomali.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Paramiko</span>
+                            <span>AWS S3</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section reveal">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h2 class="section-title">Mettiamoci In <span>Contatto</span></h2>
+                    <p>Pronto a collaborare o hai un problema di rete da risolvere? Mandami un messaggio. Sono sempre
+                        aperto a nuove sfide e opportunità professionali.</p>
+
+                    <div class="contact-methods">
+                        <div class="method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:tuo.indirizzo@email.com">tuo.indirizzo@email.com</a>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="#" target="_blank">linkedin.com/in/cristiancagliani</a>
+                            </div>
+                        </div>
+                        <div class="method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="#" target="_blank">github.com/tuousername</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Messaggio inviato (simulazione)!');">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Il tuo Nome">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="La tua Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required placeholder="Oggetto">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="Il tuo Messaggio"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Invia Messaggio <i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="logo-text">CCagliani</span><span class="logo-dot">.</span>
+            </div>
+            <p>&copy; 2024 Cristian Cagliani. Tutti i diritti riservati.</p>
+            <div class="social-links-footer">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
