@@ -31,7 +31,7 @@
                 <li><a href="#about" class="nav-link">Chi Sono</a></li>
                 <li><a href="#skills" class="nav-link">Competenze</a></li>
                 <li><a href="#certifications" class="nav-link">Certificazioni</a></li>
-                <li><a href="#projects" class="nav-link">Progetti</a></li>
+                <li><a href="#projects" class="nav-link">Esperienza</a></li>
                 <li><a href="#contact" class="nav-link btn-primary">Contatti</a></li>
             </ul>
             <div class="hamburger">
@@ -45,19 +45,16 @@
         <canvas id="network-canvas"></canvas>
         <div class="hero-content">
             <h1 class="hero-name">Cristian Cagliani <span class="cursor">|</span></h1>
-            <p class="hero-subtitle">IT Specialist & Network Engineer</p>
+            <p class="hero-subtitle">Network and Cloud Specialist</p>
             <p class="hero-description">
-                Costruisco infrastrutture resilienti e connetto mondi invisibili.<br>
-                Specializzato in <strong>Networking</strong>, con solida esperienza in <strong>Cloud</strong> e
-                <strong>Programmazione</strong>.
+                Diplomato all'ITS Angelo Rizzoli, appassionato dell'ambito delle reti.<br>
+                Specializzato in <strong>Networking</strong>, <strong>Cloud</strong> e <strong>Programmazione</strong>.
             </p>
-            <div class="hero-cta">
-                <a href="#projects" class="btn btn-primary">Vedi i Progetti</a>
-                <a href="#contact" class="btn btn-secondary">Mettiamoci in contatto</a>
-            </div>
             <div class="social-links-hero">
-                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-cagliani/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/cristian-cagliani" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
             </div>
         </div>
         <a href="#about" class="scroll-indicator">
@@ -72,15 +69,14 @@
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        Sono un tecnico informatico appassionato di tecnologia e innovazione. La mia spina dorsale
-                        professionale è il <strong>Networking</strong>, dove trovo soddisfazione nell'architettare,
-                        configurare e manutenere reti complesse, sicure e performanti.
+                        Mi sono diplomato dall'IISS Alessandro Greppi in indirizzo Informatica e Telecomunicazioni, e
+                        sto proseguendo il mio percorso di studi presso l'ITS Angelo Rizzoli nel corso <strong>Network
+                            and Cloud Specialist</strong>.
                     </p>
                     <p>
-                        Credo in un approccio olistico all'IT: la mia esperienza nel <strong>Cloud Computing</strong> e
-                        nella <strong>Programmazione</strong> mi permette di comprendere e risolvere problemi su più
-                        livelli, dal codice sorgente fino all'infrastruttura di rete che lo ospita, offrendo soluzioni
-                        complete ed ottimizzate.
+                        Sono particolarmente interessato e appassionato dall'ambito delle reti, nel quale punto a
+                        costruire la mia carriera lavorativa. Le mie conoscenze spaziano tra architetture di rete, Cloud
+                        computing, web e programmazione.
                     </p>
                     <div class="about-highlights">
                         <div class="highlight-item">
@@ -98,6 +94,11 @@
                     </div>
                 </div>
                 <div class="about-visual">
+                    <!-- Slot Foto Profilo -->
+                    <div class="profile-photo-container" style="text-align: center; margin-bottom: 2rem;">
+                        <img src="images/foto_curr.PNG" alt="Foto Profilo"
+                            style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; border: 4px solid var(--accent-color); box-shadow: 0 8px 24px rgba(0,0,0,0.2);">
+                    </div>
                     <div class="terminal-window">
                         <div class="terminal-header">
                             <span class="dot red"></span>
@@ -132,47 +133,66 @@
 
                 <div class="skill-category">
                     <div class="skill-category-header">
-                        <i class="fas fa-server"></i>
+                        <i class="fas fa-network-wired"></i>
                         <h3>Networking</h3>
                     </div>
-                    <p class="skill-desc">Progettazione, routing, switching, e network security.</p>
+                    <p class="skill-desc">Configurazione e gestione reti avanzate.</p>
                     <div class="skill-tags">
-                        <span class="tag">TCP/IP</span>
-                        <span class="tag">Cisco/MikroTik</span>
-                        <span class="tag">VLAN & VPN</span>
-                        <span class="tag">Firewall</span>
-                        <span class="tag">BGP/OSPF</span>
-                        <span class="tag">Wireshark</span>
+                        <span class="tag">Switch L2/L3 & Router</span>
+                        <span class="tag">Pila ISO/OSI</span>
+                        <span class="tag">VLAN & Routing (Static/Dynamic)</span>
+                        <span class="tag">TCP/UDP & IPv4/IPv6</span>
+                        <span class="tag">VPN</span>
+                        <span class="tag">RIP, RIPv2, OSPF</span>
+                        <span class="tag">DNS & DHCP</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <div class="skill-category-header">
                         <i class="fas fa-cloud"></i>
-                        <h3>Cloud</h3>
+                        <h3>Cloud & Sistemi</h3>
                     </div>
-                    <p class="skill-desc">Gestione risorse cloud, virtualizzazione e servizi distribuiti.</p>
+                    <p class="skill-desc">Gestione cloud e sistemi operativi server.</p>
                     <div class="skill-tags">
-                        <span class="tag">AWS</span>
-                        <span class="tag">Azure</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">Virtualization (VMware/Proxmox)</span>
-                        <span class="tag">Linux SysAdmin</span>
+                        <span class="tag">AWS Cloud</span>
+                        <span class="tag">Azure Cloud</span>
+                        <span class="tag">Windows Server (AD, DNS, DHCP)</span>
+                        <span class="tag">Cluster Windows</span>
+                        <span class="tag">Linux (Bash & Scripting)</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <div class="skill-category-header">
                         <i class="fas fa-laptop-code"></i>
-                        <h3>Programmazione</h3>
+                        <h3>Programmazione & DB</h3>
                     </div>
-                    <p class="skill-desc">Sviluppo di script, automazione e applicazioni web.</p>
+                    <p class="skill-desc">Sviluppo software, automazione e database.</p>
                     <div class="skill-tags">
+                        <span class="tag">C# (OOP, API, MAUI)</span>
+                        <span class="tag">ASP.NET Core</span>
                         <span class="tag">Python</span>
-                        <span class="tag">Bash</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">HTML/CSS</span>
-                        <span class="tag">Git</span>
+                        <span class="tag">HTML/CSS/JS</span>
+                        <span class="tag">PowerShell</span>
+                        <span class="tag">SQL & Modello ER</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <i class="fas fa-users"></i>
+                        <h3>Applicativi & Skills</h3>
+                    </div>
+                    <p class="skill-desc">Strumenti aggiuntivi e competenze trasversali.</p>
+                    <div class="skill-tags">
+                        <span class="tag">GitHub</span>
+                        <span class="tag">NAS Synology (Domain Controller)</span>
+                        <span class="tag">Inglese (B2/C1)</span>
+                        <span class="tag">Lavoro in Team</span>
+                        <span class="tag">Relazioni col Cliente</span>
+                        <span class="tag">Problem Solving</span>
                     </div>
                 </div>
 
@@ -188,47 +208,46 @@
 
                 <div class="cert-card">
                     <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
+                        <image src="images/microsoft.png" class="fas fa-certificate"></image>
                     </div>
                     <div class="cert-content">
-                        <h3>Cisco CCNA</h3>
-                        <p class="cert-issuer">Cisco Systems</p>
-                        <p class="cert-date">Data: [Inserire Data]</p>
-                        <a href="#" class="cert-link">Visualizza Credenziale <i
-                                class="fas fa-external-link-alt"></i></a>
+                        <h3>Security, Compliance and Identity Fundamentals</h3>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Luglio 2025</p>
+                        <a target="_blank"
+                            href="https://learn.microsoft.com/it-it/users/cristiancagliani-9054/credentials/a860b9d2d25d9eb3?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                            class="cert-link">Visualizza Credenziale <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
 
                 <div class="cert-card">
                     <div class="cert-icon">
-                        <i class="fas fa-award"></i>
+                        <image src="images/aws.png" class="fas fa-certificate"></image>
                     </div>
                     <div class="cert-content">
-                        <h3>CompTIA Network+</h3>
-                        <p class="cert-issuer">CompTIA</p>
-                        <p class="cert-date">Data: [Inserire Data]</p>
-                        <a href="#" class="cert-link">Visualizza Credenziale <i
-                                class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <div class="cert-content">
-                        <h3>AWS Certified Cloud Practitioner</h3>
+                        <h3>AWS Certified Cloud Practitioner CLF-C02</h3>
                         <p class="cert-issuer">Amazon Web Services</p>
-                        <p class="cert-date">Data: [Inserire Data]</p>
-                        <a href="#" class="cert-link">Visualizza Credenziale <i
-                                class="fas fa-external-link-alt"></i></a>
+                        <p class="cert-date">Giugno 2025</p>
+                        <a target="_blank"
+                            href="https://www.credly.com/badges/7ce00763-9796-4e95-8ec7-e700512de12f/linked_in_profile"
+                            class="cert-link">Visualizza Credenziale <i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
 
-            </div>
-            <div class="text-center mt-2">
-                <p class="text-muted"><small>*(Nota: I titoli delle certificazioni sono degli esempi (placeholder), puoi
-                        modificarli con le tue certificazioni reali)*</small></p>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <image src="images/microsoft.png" class="fas fa-certificate"></image>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AZ900 Microsoft Azure Fundamentals</h3>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Febbraio 2025</p>
+                        <a target="_blank"
+                            href="https://learn.microsoft.com/it-it/users/cristiancagliani-9054/credentials/1f8b85c83d46f50?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+                            class="cert-link">Visualizza Credenziale <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -236,54 +255,75 @@
     <!-- Projects Section -->
     <section id="projects" class="section projects-section reveal">
         <div class="container">
-            <h2 class="section-title">Esperienze & <span>Progetti</span></h2>
-            <div class="projects-grid">
+            <h2 class="section-title">Esperienza & <span>Formazione</span></h2>
+            <div class="projects-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
 
-                <!-- Project Card 1 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-project-diagram"></i>
+                <!-- Experience Card -->
+                <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-info" style="flex: 1; padding: 2rem;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem; gap: 10px;">
+                            <i class="fas fa-briefcase" style="font-size: 1.5rem; color: var(--accent-color);"></i>
+                            <h3 style="margin: 0; font-size: 1.5rem;">Esperienza Lavorativa</h3>
                         </div>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link-btn" title="Vedi Codice/Dettagli"><i
-                                    class="fab fa-github"></i></a>
-                            <a href="#" class="project-link-btn" title="Live Preview"><i
-                                    class="fas fa-external-link-alt"></i></a>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.3rem;">Stage Tecnico IT</h4>
+                            <div
+                                style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--light-text); opacity: 0.8;">
+                                <strong>InXpire SRL</strong>
+                                <span>Gen 2026 - Presente | Carnate (MB)</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Network Toplogy Redesign</h3>
-                        <p>Riprogettazione completa dell'infrastruttura di rete aziendale per migliorare la ridondanza e
-                            le performance. Implementazione di VLAN a livello logico e routing OSPF.</p>
-                        <div class="project-tech">
-                            <span>Cisco IOS</span>
-                            <span>Network Design</span>
-                            <span>VPN</span>
+
+                        <div
+                            style="margin-bottom: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.3rem;">Addetto Infopoint</h4>
+                            <div
+                                style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--light-text); opacity: 0.8;">
+                                <strong>Winch SRL</strong>
+                                <span>Formula 1 2024-2025 | Monza (MB)</span>
+                            </div>
+                        </div>
+
+                        <div style="border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.3rem;">Stage Sviluppatore Software
+                            </h4>
+                            <div
+                                style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--light-text); opacity: 0.8;">
+                                <strong>Limonta Informatica SPA</strong>
+                                <span>Giugno 2023 | Garbagnate Monastero (LC)</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project Card 2 -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <div class="project-placeholder">
-                            <i class="fas fa-tachometer-alt"></i>
+                <!-- Education Card -->
+                <div class="project-card" style="display: flex; flex-direction: column;">
+                    <div class="project-info" style="flex: 1; padding: 2rem;">
+                        <div style="display: flex; align-items: center; margin-bottom: 1.5rem; gap: 10px;">
+                            <i class="fas fa-graduation-cap" style="font-size: 1.5rem; color: var(--accent-color);"></i>
+                            <h3 style="margin: 0; font-size: 1.5rem;">Formazione</h3>
                         </div>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link-btn" title="Vedi Codice/Dettagli"><i
-                                    class="fab fa-github"></i></a>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.3rem;">Network and Cloud Specialist
+                                (EQF 4)</h4>
+                            <div
+                                style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--light-text); opacity: 0.8;">
+                                <strong>ITS Angelo Rizzoli, Milano</strong>
+                                <span>2024 - 2026 (In Corso)</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Automazione Network Script in Python</h3>
-                        <p>Sviluppo di uno strumento in Python per raccogliere automaticamente le configurazioni dai
-                            router di rete, eseguire backup periodici su cloud storage e notificare gli stati anomali.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Paramiko</span>
-                            <span>AWS S3</span>
+
+                        <div style="border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+                            <h4 style="color: var(--accent-color); margin-bottom: 0.3rem;">Diploma Informatica e
+                                Telecomunicazioni</h4>
+                            <div
+                                style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--light-text); opacity: 0.8;">
+                                <strong>IISS Alessandro Greppi</strong>
+                                <span>2018 - 2024 | Monticello Brianza (LC)</span>
+                            </div>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem;">Votazione: 78/100</p>
                         </div>
                     </div>
                 </div>
@@ -295,54 +335,34 @@
     <!-- Contact Section -->
     <section id="contact" class="section contact-section reveal">
         <div class="container">
-            <div class="contact-box">
-                <div class="contact-info">
-                    <h2 class="section-title">Mettiamoci In <span>Contatto</span></h2>
-                    <p>Pronto a collaborare o hai un problema di rete da risolvere? Mandami un messaggio. Sono sempre
-                        aperto a nuove sfide e opportunità professionali.</p>
-
-                    <div class="contact-methods">
-                        <div class="method">
-                            <i class="fas fa-envelope"></i>
-                            <div>
-                                <h4>Email</h4>
-                                <a href="mailto:tuo.indirizzo@email.com">tuo.indirizzo@email.com</a>
-                            </div>
-                        </div>
-                        <div class="method">
-                            <i class="fab fa-linkedin"></i>
-                            <div>
-                                <h4>LinkedIn</h4>
-                                <a href="#" target="_blank">linkedin.com/in/cristiancagliani</a>
-                            </div>
-                        </div>
-                        <div class="method">
-                            <i class="fab fa-github"></i>
-                            <div>
-                                <h4>GitHub</h4>
-                                <a href="#" target="_blank">github.com/tuousername</a>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="section-title">Contatti</h2>
+            <div class="contact-grid"
+                style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center; margin-top: 2rem;">
+                <div class="contact-card"
+                    style="background: var(--card-bg); padding: 2rem; border-radius: 10px; text-align: center; flex: 1; min-width: 250px; border: 1px solid var(--border-color);">
+                    <i class="fas fa-envelope"
+                        style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Email</h3>
+                    <a href="mailto:cristiancagliani@gmail.com"
+                        style="color: var(--text-color); text-decoration: none;">cristiancagliani@gmail.com</a>
                 </div>
 
-                <form class="contact-form"
-                    onsubmit="event.preventDefault(); alert('Messaggio inviato (simulazione)!');">
-                    <div class="form-group">
-                        <input type="text" id="name" required placeholder="Il tuo Nome">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" required placeholder="La tua Email">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" required placeholder="Oggetto">
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" rows="5" required placeholder="Il tuo Messaggio"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary submit-btn">Invia Messaggio <i
-                            class="fas fa-paper-plane"></i></button>
-                </form>
+                <div class="contact-card"
+                    style="background: var(--card-bg); padding: 2rem; border-radius: 10px; text-align: center; flex: 1; min-width: 250px; border: 1px solid var(--border-color);">
+                    <i class="fas fa-map-marker-alt"
+                        style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">Sede</h3>
+                    <p style="margin: 0;">Colle Brianza (LC), Italia</p>
+                </div>
+
+                <div class="contact-card"
+                    style="background: var(--card-bg); padding: 2rem; border-radius: 10px; text-align: center; flex: 1; min-width: 250px; border: 1px solid var(--border-color);">
+                    <i class="fab fa-linkedin"
+                        style="font-size: 2rem; color: var(--accent-color); margin-bottom: 1rem;"></i>
+                    <h3 style="margin-bottom: 0.5rem; font-size: 1.2rem;">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/cristian-cagliani/" target="_blank"
+                        style="color: var(--text-color); text-decoration: none;">Visita il mio Profilo</a>
+                </div>
             </div>
         </div>
     </section>
@@ -353,10 +373,10 @@
             <div class="footer-logo">
                 <span class="logo-text">CCagliani</span><span class="logo-dot">.</span>
             </div>
-            <p>&copy; 2024 Cristian Cagliani. Tutti i diritti riservati.</p>
+            <p>&copy; 2026 Cristian Cagliani. Tutti i diritti riservati.</p>
             <div class="social-links-footer">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristian-cagliani/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/cristian-cagliani"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </footer>
